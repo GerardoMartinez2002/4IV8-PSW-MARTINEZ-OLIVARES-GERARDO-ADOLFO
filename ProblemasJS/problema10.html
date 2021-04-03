@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/problema10.css">
+    <script src="./JS/problema10.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <h1>Calculadora de utilidades</h1>
+    </div>
+    <div id="contenidos">
+        <p><h3>Seleccione su antiguedad</h3></p>
+        <p>
+        <form>
+            <select id="antiguedad">
+                <option selected value="-1">Antiguedad</option>
+                <option value="0">Menos de 1 ano</option>
+                <option value="1">1 ano mas y menos de 2 anos</option>
+                <option value="2">2 anos o mas y menos de 5 anos</option>
+                <option value="3">5 anos o mas y menos de 10</option>
+                <option value="4">10 anos o mas</option>
+            </select>
+        </form>
+         </p>
+        <p>
+            <label>Ingrese su salario</label>
+            <input id="salario" type="text">
+            <button onclick="calcular()">Calcular</button>
+        </p>
+        <p><label id="salida"></label> </p>
+    </div>
+    <div>
+        <section class="link-braces enlacesmodernos">
+            <p><a href="index.html">Regresar</a></p>
+        </section>
+    </div>
+</body>
+</html>
